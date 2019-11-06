@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ScreenshotService</name>
+    </assembly>
+    <members>
+        <member name="M:ScreenshotService.Controllers.ScreenshotController.Get(System.String)">
+            <summary>
+            Get a file object containing the image.
+            </summary>
+            <param name="fileNameArg">Filename given when the screnshot was taken.</param>
+        </member>
+        <member name="M:ScreenshotService.Controllers.ScreenshotController.Post(ScreenshotService.RequestModels.TakeSceenshotsPostRequest)">
+            <summary>
+            Take screenshots for the given URLs.
+            </summary>
+            <param name="requestsArg">An object containing a list of screenshot request objects. 
+            Each screenshot request object contains an url from where the screenshot is to be taken
+            and a filename with which it is to be saved.</param>
+        </member>
+    </members>
+</doc>
